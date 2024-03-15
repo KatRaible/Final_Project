@@ -33,12 +33,12 @@ try:
 except ModuleNotFoundError:
     logging.error("Class files not found - please configure the client following steps in README.md!")
 
-USERNAME = os.getenv('USERNAME', '')
-PASSWORD = os.getenv('PASSWORD', '')
-HOSTNAME = os.getenv('HOSTNAME', '')
+USERNAME = os.getenv('USERNAME', 'DARWIN3dfd20f5-1421-44b9-9c8b-c6a1198a4792')
+PASSWORD = os.getenv('PASSWORD', 'ecac12cc-6937-42fd-b136-5345fc7387cb')
+HOSTNAME = os.getenv('HOSTNAME', 'darwin-dist-44ae45.nationalrail.co.uk')
 HOSTPORT = int(os.getenv('HOSTPORT', '61613')) 
-TOPIC = os.getenv('TOPIC', '')
-KAFKA_TOPIC = os.getenv('KAFKA_TOPIC', '')
+TOPIC = os.getenv('TOPIC', 'darwin.pushport-v16')
+KAFKA_TOPIC = os.getenv('KAFKA_TOPIC', 'open_rail')
 
 CLIENT_ID = socket.getfqdn()
 HEARTBEAT_INTERVAL_MS = int(os.getenv('HEARTBEAT_INTERVAL_MS', '15000'))
