@@ -14,7 +14,7 @@ logging.basicConfig(filename='etl.log', level=logging.INFO,
 
 PARQUET_DIRECTORY = './xml/'
 
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = os.getenv("postgresql://root:u2YJR7TNLPpF1THVLsPS@database-1.cd0asuee8tgm.us-east-2.rds.amazonaws.com:5432/postgres")
 TABLE_NAME = 'darwin'  
 PARQUET_FILE_THRESHOLD = 10
 POLLING_INTERVAL_SECONDS = 60 

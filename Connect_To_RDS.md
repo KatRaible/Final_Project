@@ -5,7 +5,7 @@ To update your project to write to a PostgreSQL database hosted on AWS (such as 
 1. Update the connection string in your Spark application (or wherever you are establishing the connection to the PostgreSQL database). The connection string should point to your RDS instance. It usually follows this pattern:
 
     ```python
-    database_url = "postgresql://<username>:<password>@<hostname>:<port>/<dbname>"
+    database_url = "postgresql://root:u2YJR7TNLPpF1THVLsPS@database-1.cd0asuee8tgm.us-east-2.rds.amazonaws.com:5432/postgres"
     ```
 
     Replace `<username>`, `<password>`, `<hostname>`, `<port>`, and `<dbname>` with the actual values for your RDS instance.
