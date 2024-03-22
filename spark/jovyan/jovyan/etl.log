@@ -6001,3 +6001,1592 @@ sqlalchemy.exc.ArgumentError: Expected string or URL object, got None
 2024-03-22 00:54:22,754 - INFO - Starting to transform data.
 2024-03-22 00:54:22,943 - INFO - Finished transforming data.
 2024-03-22 00:54:24,122 - INFO - Successfully wrote to output files and Postgres.
+2024-03-22 00:56:24,296 - INFO - Found 33 new Parquet files.
+2024-03-22 00:56:24,297 - INFO - Starting to parse Parquet files in directory ./xml/.
+2024-03-22 00:56:24,299 - INFO - Found 33 parquet files.
+2024-03-22 00:56:24,300 - INFO - Parsing file: ./xml/part-00000-2d4cd6cd-009b-498b-958d-4b7a0ccd611b-c000.snappy.parquet
+2024-03-22 00:56:24,308 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,308 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,308 - INFO - Parsing file: ./xml/part-00000-2edb7597-3123-4b45-91a5-3de4b49cbdc6-c000.snappy.parquet
+2024-03-22 00:56:24,312 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,313 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,313 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,313 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,313 - INFO - Parsing file: ./xml/part-00000-336398aa-96ac-4ce9-b2f2-4751350ee288-c000.snappy.parquet
+2024-03-22 00:56:24,322 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,322 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,322 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,322 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,322 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,323 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,323 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,323 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,323 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,323 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,324 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,324 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,324 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,324 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,324 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,324 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,325 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,325 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,325 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,325 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,325 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,326 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,326 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,326 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,326 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,326 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,326 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,327 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,327 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,327 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,327 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,327 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,328 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,328 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,328 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,328 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,328 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,328 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,329 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,329 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,329 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,329 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,329 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,329 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,330 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,330 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,330 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,330 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,330 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,330 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,331 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,331 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,331 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,331 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,331 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,331 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,332 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,332 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,332 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,332 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,332 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,333 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,333 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,333 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,334 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,334 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,334 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,334 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,334 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,335 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,335 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,335 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,335 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,335 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,336 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,336 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,336 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,337 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,337 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,337 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,338 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,338 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,338 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,338 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,338 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,338 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,339 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,339 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,339 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,339 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,339 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,340 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,340 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,340 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,340 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,340 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,340 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,341 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,341 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,341 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,341 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,341 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,341 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,342 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,342 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,342 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,342 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,342 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,343 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,343 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,343 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,343 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,343 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,343 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,343 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,344 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,344 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,344 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,344 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,344 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,344 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,345 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,345 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,345 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,345 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,345 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,345 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,346 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,346 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,346 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,346 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,347 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,347 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,347 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,347 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,347 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,347 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,348 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,348 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,348 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,348 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,348 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,349 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,349 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,349 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,349 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,349 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,349 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,350 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,350 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,350 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,350 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,350 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,351 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,351 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,351 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,351 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,351 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,351 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,352 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,352 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,352 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,352 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,352 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,353 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,353 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,353 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,353 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,353 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,354 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,354 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,354 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,354 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,355 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,355 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,356 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,356 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,356 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,356 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,357 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,357 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,357 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,358 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,358 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,358 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,359 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,359 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,359 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,359 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,359 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,359 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,360 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,360 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,360 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,360 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,360 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,361 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,361 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,361 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,361 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,361 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,361 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,362 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,362 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,362 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,362 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,362 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,363 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,363 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,363 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,363 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,363 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,364 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,364 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,364 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,364 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,364 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,364 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,365 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,365 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,365 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,365 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,365 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,366 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,366 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,366 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,366 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,366 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,366 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,367 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,367 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,367 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,367 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,367 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,368 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,368 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,368 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,368 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,368 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,369 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,369 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,369 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,369 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,370 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,370 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,370 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,370 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,370 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,371 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,371 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,371 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,371 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,372 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,372 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,372 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,372 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,372 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,373 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,373 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,373 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,373 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,373 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,373 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,373 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,374 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,374 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,374 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,374 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,374 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,375 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,375 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,375 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,375 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,375 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,375 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,376 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,376 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,376 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,376 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,376 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,376 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,376 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,377 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,377 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,377 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,377 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,377 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,377 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,378 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,378 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,378 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,378 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,378 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,378 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,379 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,379 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,379 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,379 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,379 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,380 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,380 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,380 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,380 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,380 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,380 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,381 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,381 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,381 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,381 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,381 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,382 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,382 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,382 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,382 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,382 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,383 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,383 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,383 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,383 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,383 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,384 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,384 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,384 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,384 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,384 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,384 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,385 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,385 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,385 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,385 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,385 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,385 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,386 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,386 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,386 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,386 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,386 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,387 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,387 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,387 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,387 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,387 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,388 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,388 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,388 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,388 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,388 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,389 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,389 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,389 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,389 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,389 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,389 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,390 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,390 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,390 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,390 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,390 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,391 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,391 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,391 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,391 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,391 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,391 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,392 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,392 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,392 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,392 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,392 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,393 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,393 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,393 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,393 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,394 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,394 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,394 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,394 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,394 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,395 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,395 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,396 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,396 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,396 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,396 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,397 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,397 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,397 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,397 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,398 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,398 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,398 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,398 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,399 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,399 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,399 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,399 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,399 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,399 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,400 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,400 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,400 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,400 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,400 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,401 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,401 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,401 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,401 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,401 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,401 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,402 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,402 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,402 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,402 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,402 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,402 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,403 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,403 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,403 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,403 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,403 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,404 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,404 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,404 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,404 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,404 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,405 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,405 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,405 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,405 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,405 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,406 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,406 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,406 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,406 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,406 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,406 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,407 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,407 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,407 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,407 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,407 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,408 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,408 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,408 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,408 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,408 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,408 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,409 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,409 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,409 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,409 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,409 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,409 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,410 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,410 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,410 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,410 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,410 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,410 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,411 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,411 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,411 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,411 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,411 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,412 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,412 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,412 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,412 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,412 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,413 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,413 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,413 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,413 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,413 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,413 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,414 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,414 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,414 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,414 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,414 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,415 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,415 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,415 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,415 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,415 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,415 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,416 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,416 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,416 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,416 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,416 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,417 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,417 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,417 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,417 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,417 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,417 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,418 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,418 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,418 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,418 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,418 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,418 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,419 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,419 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,419 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,419 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,419 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,420 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,420 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,420 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,420 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,420 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,420 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,420 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,421 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,421 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,421 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,421 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,421 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,422 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,422 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,422 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,422 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,422 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,423 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,423 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,423 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,423 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,423 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,423 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,424 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,424 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,424 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,424 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,424 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,424 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,425 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,425 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,425 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,425 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,425 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,426 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,426 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,426 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,426 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,426 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,426 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,427 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,427 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,427 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,427 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,427 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,428 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,428 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,428 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,428 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,428 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,428 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,429 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,429 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,429 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,429 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,429 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,429 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,430 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,430 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,430 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,430 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,430 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,431 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,431 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,431 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,431 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,431 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,431 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,432 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,432 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,432 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,432 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,432 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,432 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,433 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,433 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,433 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,433 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,433 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,433 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,434 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,434 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,434 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,434 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,434 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,435 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,435 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,435 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,436 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,436 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,436 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,436 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,436 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,437 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,437 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,437 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,437 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,437 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,438 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,438 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,438 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,438 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,438 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,439 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,439 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,439 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,439 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,439 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,440 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,440 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,440 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,440 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,440 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,440 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,441 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,441 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,441 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,441 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,441 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,442 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,442 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,442 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,442 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,442 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,442 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,443 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,443 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,443 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,443 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,443 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,443 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,444 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,444 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,444 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,444 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,445 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,445 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,445 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,446 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,446 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,446 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,446 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,446 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,447 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,447 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,447 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,447 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,447 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,448 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,448 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,448 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,448 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,448 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,448 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,449 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,449 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,449 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,449 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,449 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,450 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,450 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,450 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,450 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,450 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,450 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,451 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,451 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,451 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,451 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,451 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,452 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,452 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,452 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,452 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,452 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,453 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,453 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,453 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,453 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,453 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,453 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,454 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,454 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,454 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,454 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,454 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,455 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,455 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,455 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,455 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,455 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,455 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,456 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,456 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,456 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,456 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,456 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,456 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,457 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,457 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,457 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,457 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,457 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,458 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,458 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,458 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,458 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,458 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,458 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,459 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,459 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,459 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,459 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,459 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,459 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,460 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,460 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,460 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,460 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,460 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,460 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,461 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,461 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,461 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,461 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,461 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,462 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,462 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,462 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,462 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,462 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,463 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,463 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,463 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,463 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,463 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,464 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,464 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,464 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,464 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,464 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,465 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,465 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,465 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,465 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,466 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,466 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,466 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,466 - INFO - Parsing file: ./xml/part-00000-343f54f7-fa13-45af-9d85-bcef9c8b808e-c000.snappy.parquet
+2024-03-22 00:56:24,473 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,473 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,474 - INFO - Parsing file: ./xml/part-00000-34b6e0a8-73db-4095-8413-5691403b68f8-c000.snappy.parquet
+2024-03-22 00:56:24,485 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,486 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,486 - INFO - Parsing file: ./xml/part-00000-3739a528-85f5-4a74-a990-9f4e04a1d77c-c000.snappy.parquet
+2024-03-22 00:56:24,492 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,492 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,492 - INFO - Parsing file: ./xml/part-00000-3c3481e3-3a7d-4492-8300-40b68c7dc289-c000.snappy.parquet
+2024-03-22 00:56:24,496 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,497 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,497 - INFO - Parsing file: ./xml/part-00000-43079cd1-14a6-4a05-81e1-2e6bb7910a2c-c000.snappy.parquet
+2024-03-22 00:56:24,501 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,502 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,502 - INFO - Parsing file: ./xml/part-00000-4366355d-abeb-41f6-b695-c05aa7114483-c000.snappy.parquet
+2024-03-22 00:56:24,506 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,506 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,506 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,507 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,507 - INFO - Parsing file: ./xml/part-00000-4c28ead0-b885-4f5c-8e7d-e36e20db9064-c000.snappy.parquet
+2024-03-22 00:56:24,511 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,511 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,511 - INFO - Parsing file: ./xml/part-00000-5cb2e601-d109-4244-a217-3b1b8a17dfd3-c000.snappy.parquet
+2024-03-22 00:56:24,516 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,517 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,517 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,517 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,518 - INFO - Parsing file: ./xml/part-00000-5f7defe2-88b1-4fdd-9253-e78ea127856c-c000.snappy.parquet
+2024-03-22 00:56:24,523 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,524 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,524 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,524 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,525 - INFO - Parsing file: ./xml/part-00000-6000e999-d447-4fe1-ac8e-841e85da430f-c000.snappy.parquet
+2024-03-22 00:56:24,529 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,529 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,529 - INFO - Parsing file: ./xml/part-00000-65bfa154-7d47-4b06-a7f5-2d938ba00e69-c000.snappy.parquet
+2024-03-22 00:56:24,534 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,534 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,534 - INFO - Parsing file: ./xml/part-00000-7461456c-bc91-4448-831e-1e28e30128ad-c000.snappy.parquet
+2024-03-22 00:56:24,538 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,538 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,538 - INFO - Parsing file: ./xml/part-00000-764a5fc0-4e65-40b6-8a7e-fac9c1c6a2f9-c000.snappy.parquet
+2024-03-22 00:56:24,542 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,542 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,542 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,543 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,543 - INFO - Parsing file: ./xml/part-00000-76f72faf-52c7-4487-9290-b0b9441af706-c000.snappy.parquet
+2024-03-22 00:56:24,546 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,547 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,547 - INFO - Parsing file: ./xml/part-00000-7a513e34-0cdc-46b7-9e07-dd100beefb64-c000.snappy.parquet
+2024-03-22 00:56:24,551 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,551 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,551 - INFO - Parsing file: ./xml/part-00000-7c3a3af1-c8fc-48c4-a102-2a9c87a4b0e7-c000.snappy.parquet
+2024-03-22 00:56:24,557 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,557 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,558 - INFO - Parsing file: ./xml/part-00000-7c9a88d2-83f1-49ab-b2b7-feac746c4620-c000.snappy.parquet
+2024-03-22 00:56:24,561 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,561 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,562 - INFO - Parsing file: ./xml/part-00000-831c8406-46c3-4646-81ca-add2f57d413d-c000.snappy.parquet
+2024-03-22 00:56:24,566 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,566 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,566 - INFO - Parsing file: ./xml/part-00000-960e5b36-cd38-44c1-911a-398ea2522110-c000.snappy.parquet
+2024-03-22 00:56:24,570 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,570 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,571 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,571 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,571 - INFO - Parsing file: ./xml/part-00000-979a2dee-7c84-4734-99a7-f8c1717f017d-c000.snappy.parquet
+2024-03-22 00:56:24,575 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,575 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,576 - INFO - Parsing file: ./xml/part-00000-a355fbc2-a8b7-4131-a2aa-6c875ac4176b-c000.snappy.parquet
+2024-03-22 00:56:24,579 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,579 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,580 - INFO - Parsing file: ./xml/part-00000-b31e7aa3-4f8d-4e8c-b99e-9da37f9663b1-c000.snappy.parquet
+2024-03-22 00:56:24,583 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,583 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,584 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,584 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,584 - INFO - Parsing file: ./xml/part-00000-b976544f-77a1-4f11-addf-748a3915e6be-c000.snappy.parquet
+2024-03-22 00:56:24,588 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,588 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,588 - INFO - Parsing file: ./xml/part-00000-be7841db-1b48-4d24-ae67-ec80db5b2fe8-c000.snappy.parquet
+2024-03-22 00:56:24,592 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,592 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,592 - INFO - Parsing file: ./xml/part-00000-c149503a-e278-4a44-80ce-9bb4972d0790-c000.snappy.parquet
+2024-03-22 00:56:24,598 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,599 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,599 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,600 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,600 - INFO - Parsing file: ./xml/part-00000-c19e1de0-31e7-49c1-a2ab-a965b2307ecd-c000.snappy.parquet
+2024-03-22 00:56:24,606 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,607 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,607 - INFO - Parsing file: ./xml/part-00000-c712cb46-46ac-4578-ae04-577b75b0abf8-c000.snappy.parquet
+2024-03-22 00:56:24,613 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,614 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,614 - INFO - Parsing file: ./xml/part-00000-d1cb021a-6ed8-40ba-980e-1ab35ffc8719-c000.snappy.parquet
+2024-03-22 00:56:24,620 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,620 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,620 - INFO - Parsing file: ./xml/part-00000-d3ff7881-fc21-4a0f-8935-6602be51720c-c000.snappy.parquet
+2024-03-22 00:56:24,624 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,625 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,625 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,625 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,625 - INFO - Parsing file: ./xml/part-00000-f253ae3a-553f-4ef2-8613-8e28f35fde4c-c000.snappy.parquet
+2024-03-22 00:56:24,629 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,630 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,630 - INFO - Starting to parse XML content.
+2024-03-22 00:56:24,630 - INFO - Finished parsing XML content.
+2024-03-22 00:56:24,632 - INFO - Finished parsing Parquet files in directory ./xml/.
+2024-03-22 00:56:24,633 - INFO - Starting to transform data.
+2024-03-22 00:56:24,947 - INFO - Finished transforming data.
+2024-03-22 00:56:25,929 - INFO - Successfully wrote to output files and Postgres.
+2024-03-22 00:57:25,958 - INFO - Found 24 new Parquet files.
+2024-03-22 00:57:25,959 - INFO - Starting to parse Parquet files in directory ./xml/.
+2024-03-22 00:57:25,961 - INFO - Found 24 parquet files.
+2024-03-22 00:57:25,961 - INFO - Parsing file: ./xml/part-00000-031f053a-2ae1-4612-9868-03155684f842-c000.snappy.parquet
+2024-03-22 00:57:25,967 - INFO - Starting to parse XML content.
+2024-03-22 00:57:25,968 - INFO - Finished parsing XML content.
+2024-03-22 00:57:25,968 - INFO - Parsing file: ./xml/part-00000-0cf74d66-acc0-4d02-bb40-dc8fd10f5df3-c000.snappy.parquet
+2024-03-22 00:57:25,972 - INFO - Starting to parse XML content.
+2024-03-22 00:57:25,973 - INFO - Finished parsing XML content.
+2024-03-22 00:57:25,973 - INFO - Parsing file: ./xml/part-00000-219f79db-24ed-4789-a38e-24320b9d8e2f-c000.snappy.parquet
+2024-03-22 00:57:25,977 - INFO - Starting to parse XML content.
+2024-03-22 00:57:25,977 - INFO - Finished parsing XML content.
+2024-03-22 00:57:25,978 - INFO - Parsing file: ./xml/part-00000-24426e76-0ebc-4173-b6f8-88213e467447-c000.snappy.parquet
+2024-03-22 00:57:25,982 - INFO - Starting to parse XML content.
+2024-03-22 00:57:25,983 - INFO - Finished parsing XML content.
+2024-03-22 00:57:25,983 - INFO - Parsing file: ./xml/part-00000-2482d9f0-43c9-44e3-b50b-ff4a7adb7716-c000.snappy.parquet
+2024-03-22 00:57:25,987 - INFO - Starting to parse XML content.
+2024-03-22 00:57:25,988 - INFO - Finished parsing XML content.
+2024-03-22 00:57:25,988 - INFO - Starting to parse XML content.
+2024-03-22 00:57:25,988 - INFO - Finished parsing XML content.
+2024-03-22 00:57:25,988 - INFO - Parsing file: ./xml/part-00000-2b35aeb5-ca01-4958-bb4d-90702ebcd561-c000.snappy.parquet
+2024-03-22 00:57:25,995 - INFO - Starting to parse XML content.
+2024-03-22 00:57:25,996 - INFO - Finished parsing XML content.
+2024-03-22 00:57:25,996 - INFO - Parsing file: ./xml/part-00000-2b489491-0318-475c-8a5b-5aea9ec4e64b-c000.snappy.parquet
+2024-03-22 00:57:26,003 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,003 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,004 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,004 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,004 - INFO - Parsing file: ./xml/part-00000-3469a88c-cf05-4eb1-a776-d4922f5dc425-c000.snappy.parquet
+2024-03-22 00:57:26,008 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,009 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,009 - INFO - Parsing file: ./xml/part-00000-3a8ed6b0-2ad1-4fa0-906a-cc20fc3cd9b2-c000.snappy.parquet
+2024-03-22 00:57:26,012 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,013 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,013 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,013 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,013 - INFO - Parsing file: ./xml/part-00000-5a0f5f86-5f98-4ed0-9648-8f406328957b-c000.snappy.parquet
+2024-03-22 00:57:26,018 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,018 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,018 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,018 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,018 - INFO - Parsing file: ./xml/part-00000-5c99b77d-0f05-4490-a90b-9a1a0c032dec-c000.snappy.parquet
+2024-03-22 00:57:26,024 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,025 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,025 - INFO - Parsing file: ./xml/part-00000-5d9aa6ec-5405-4751-8525-b39cd10951fc-c000.snappy.parquet
+2024-03-22 00:57:26,030 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,030 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,031 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,031 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,031 - INFO - Parsing file: ./xml/part-00000-5da5ae66-f994-4a4f-88a9-b64e94501f2b-c000.snappy.parquet
+2024-03-22 00:57:26,037 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,038 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,038 - INFO - Parsing file: ./xml/part-00000-5f2beb4d-7802-4785-9d3a-328aebe757a2-c000.snappy.parquet
+2024-03-22 00:57:26,042 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,042 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,042 - INFO - Parsing file: ./xml/part-00000-64aa849d-2cab-4e07-a408-6131fd67514a-c000.snappy.parquet
+2024-03-22 00:57:26,046 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,046 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,046 - INFO - Parsing file: ./xml/part-00000-702552f3-ae29-42ca-991e-546d16ea284b-c000.snappy.parquet
+2024-03-22 00:57:26,050 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,050 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,050 - INFO - Parsing file: ./xml/part-00000-9c144d39-b43e-4078-a3d3-3be9bdb2c449-c000.snappy.parquet
+2024-03-22 00:57:26,054 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,054 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,055 - INFO - Parsing file: ./xml/part-00000-af2dc8a0-18de-44de-b401-7e48da1ae451-c000.snappy.parquet
+2024-03-22 00:57:26,059 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,060 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,060 - INFO - Parsing file: ./xml/part-00000-b0b1526d-f190-433b-b602-cbb47355d2c7-c000.snappy.parquet
+2024-03-22 00:57:26,064 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,064 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,064 - INFO - Parsing file: ./xml/part-00000-b575d6de-e15f-450b-b7c3-5ea0dc511d52-c000.snappy.parquet
+2024-03-22 00:57:26,068 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,068 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,068 - INFO - Parsing file: ./xml/part-00000-c0be55c3-8d70-47ee-818b-84d1f7c28a85-c000.snappy.parquet
+2024-03-22 00:57:26,072 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,072 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,072 - INFO - Parsing file: ./xml/part-00000-c6f27bd4-a112-460d-82f2-e32eb92014c2-c000.snappy.parquet
+2024-03-22 00:57:26,077 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,077 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,077 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,078 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,078 - INFO - Parsing file: ./xml/part-00000-dc4de342-c2ca-42ea-af3e-381029f572c5-c000.snappy.parquet
+2024-03-22 00:57:26,082 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,082 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,082 - INFO - Parsing file: ./xml/part-00000-f916c636-2dd7-4839-ae4e-c16a3dd7add0-c000.snappy.parquet
+2024-03-22 00:57:26,086 - INFO - Starting to parse XML content.
+2024-03-22 00:57:26,087 - INFO - Finished parsing XML content.
+2024-03-22 00:57:26,087 - INFO - Finished parsing Parquet files in directory ./xml/.
+2024-03-22 00:57:26,088 - INFO - Starting to transform data.
+2024-03-22 00:57:26,115 - INFO - Finished transforming data.
+2024-03-22 00:57:26,953 - INFO - Successfully wrote to output files and Postgres.
+2024-03-22 00:58:26,974 - INFO - Found 25 new Parquet files.
+2024-03-22 00:58:26,975 - INFO - Starting to parse Parquet files in directory ./xml/.
+2024-03-22 00:58:26,977 - INFO - Found 25 parquet files.
+2024-03-22 00:58:26,977 - INFO - Parsing file: ./xml/part-00000-161795ca-92a6-4f6b-b0b0-a5a69df8eeb5-c000.snappy.parquet
+2024-03-22 00:58:26,982 - INFO - Starting to parse XML content.
+2024-03-22 00:58:26,983 - INFO - Finished parsing XML content.
+2024-03-22 00:58:26,983 - INFO - Parsing file: ./xml/part-00000-1c7bbf21-b004-43d1-b7e9-e7ce1e9ee9a1-c000.snappy.parquet
+2024-03-22 00:58:26,987 - INFO - Starting to parse XML content.
+2024-03-22 00:58:26,987 - INFO - Finished parsing XML content.
+2024-03-22 00:58:26,987 - INFO - Parsing file: ./xml/part-00000-1cac601e-3d8b-4f5a-b3dd-941e368ff0d5-c000.snappy.parquet
+2024-03-22 00:58:26,991 - INFO - Starting to parse XML content.
+2024-03-22 00:58:26,991 - INFO - Finished parsing XML content.
+2024-03-22 00:58:26,992 - INFO - Parsing file: ./xml/part-00000-1f2d58bc-04aa-4750-930c-b6cf4a5f2ce6-c000.snappy.parquet
+2024-03-22 00:58:26,997 - INFO - Starting to parse XML content.
+2024-03-22 00:58:26,997 - INFO - Finished parsing XML content.
+2024-03-22 00:58:26,997 - INFO - Parsing file: ./xml/part-00000-29e148fc-5f56-4515-994c-4372bdce793a-c000.snappy.parquet
+2024-03-22 00:58:27,003 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,003 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,003 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,004 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,004 - INFO - Parsing file: ./xml/part-00000-2ef11d5c-2331-4cd4-9ac1-6a53cbc8890a-c000.snappy.parquet
+2024-03-22 00:58:27,010 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,010 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,010 - INFO - Parsing file: ./xml/part-00000-4d84ac14-2c46-44ed-86f2-4049fd1f4596-c000.snappy.parquet
+2024-03-22 00:58:27,014 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,015 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,015 - INFO - Parsing file: ./xml/part-00000-5a7f1a13-7be2-4f90-b955-705f9f723cde-c000.snappy.parquet
+2024-03-22 00:58:27,019 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,019 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,019 - INFO - Parsing file: ./xml/part-00000-5b6ce5b9-110b-46e5-8ca4-7679e27212ef-c000.snappy.parquet
+2024-03-22 00:58:27,023 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,024 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,024 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,024 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,024 - INFO - Parsing file: ./xml/part-00000-817bdca6-bdfe-414d-8e2a-f1d99c438e33-c000.snappy.parquet
+2024-03-22 00:58:27,028 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,028 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,029 - INFO - Parsing file: ./xml/part-00000-8700f999-096c-4494-bd6f-a66ce0930b99-c000.snappy.parquet
+2024-03-22 00:58:27,045 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,045 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,045 - INFO - Parsing file: ./xml/part-00000-8d229906-9937-4a9b-8aff-364d1b859818-c000.snappy.parquet
+2024-03-22 00:58:27,050 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,051 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,051 - INFO - Parsing file: ./xml/part-00000-9b200fea-b72a-4823-a9e5-6e81ff47d95e-c000.snappy.parquet
+2024-03-22 00:58:27,057 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,057 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,057 - INFO - Parsing file: ./xml/part-00000-9d7e3c7b-58fa-4985-bba4-48de96fa9778-c000.snappy.parquet
+2024-03-22 00:58:27,061 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,062 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,062 - INFO - Parsing file: ./xml/part-00000-aae3d811-1e7e-44e3-b45e-3cfc628cec6c-c000.snappy.parquet
+2024-03-22 00:58:27,066 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,066 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,066 - INFO - Parsing file: ./xml/part-00000-ba4e6f6a-b464-4cab-abe5-0a6a4b347cbd-c000.snappy.parquet
+2024-03-22 00:58:27,070 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,070 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,070 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,070 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,070 - INFO - Parsing file: ./xml/part-00000-c39a430f-6b4e-4462-a1d3-a52b6d81eab9-c000.snappy.parquet
+2024-03-22 00:58:27,074 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,075 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,075 - INFO - Parsing file: ./xml/part-00000-d93a6e98-3b7d-4518-a968-2373b21dfa73-c000.snappy.parquet
+2024-03-22 00:58:27,080 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,080 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,080 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,080 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,081 - INFO - Parsing file: ./xml/part-00000-d997b793-0c8f-446d-a58a-85d79d6ee246-c000.snappy.parquet
+2024-03-22 00:58:27,084 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,084 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,085 - INFO - Parsing file: ./xml/part-00000-e02fbcdf-7669-4930-9516-3717983810d1-c000.snappy.parquet
+2024-03-22 00:58:27,088 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,088 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,089 - INFO - Parsing file: ./xml/part-00000-e4e1911a-7ce8-484d-8dbc-18dc0892082e-c000.snappy.parquet
+2024-03-22 00:58:27,092 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,092 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,092 - INFO - Parsing file: ./xml/part-00000-e535408f-bc10-43d2-8a2f-b3f08eaf794b-c000.snappy.parquet
+2024-03-22 00:58:27,097 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,097 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,097 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,097 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,098 - INFO - Parsing file: ./xml/part-00000-ebcf1c2d-621a-4d65-a909-47e063608b76-c000.snappy.parquet
+2024-03-22 00:58:27,101 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,101 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,101 - INFO - Parsing file: ./xml/part-00000-eecf0048-91eb-4397-9472-7e2c6f96e676-c000.snappy.parquet
+2024-03-22 00:58:27,104 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,104 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,105 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,105 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,105 - INFO - Parsing file: ./xml/part-00000-f877959f-483e-4fec-8531-69d4276adf14-c000.snappy.parquet
+2024-03-22 00:58:27,108 - INFO - Starting to parse XML content.
+2024-03-22 00:58:27,109 - INFO - Finished parsing XML content.
+2024-03-22 00:58:27,109 - INFO - Finished parsing Parquet files in directory ./xml/.
+2024-03-22 00:58:27,109 - INFO - Starting to transform data.
+2024-03-22 00:58:27,143 - INFO - Finished transforming data.
+2024-03-22 00:58:28,034 - INFO - Successfully wrote to output files and Postgres.
+2024-03-22 00:59:28,057 - INFO - Found 25 new Parquet files.
+2024-03-22 00:59:28,057 - INFO - Starting to parse Parquet files in directory ./xml/.
+2024-03-22 00:59:28,060 - INFO - Found 25 parquet files.
+2024-03-22 00:59:28,060 - INFO - Parsing file: ./xml/part-00000-027d291b-85e0-4cca-b55c-af1d0c54f282-c000.snappy.parquet
+2024-03-22 00:59:28,065 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,065 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,065 - INFO - Parsing file: ./xml/part-00000-06fca09e-2375-4c3d-bef1-058dd3963cb5-c000.snappy.parquet
+2024-03-22 00:59:28,069 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,069 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,069 - INFO - Parsing file: ./xml/part-00000-07bb7ab0-0732-4e48-8071-77d78969e698-c000.snappy.parquet
+2024-03-22 00:59:28,072 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,073 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,073 - INFO - Parsing file: ./xml/part-00000-0af01e45-23cb-4579-96d1-42ce0b5080f3-c000.snappy.parquet
+2024-03-22 00:59:28,078 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,079 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,079 - INFO - Parsing file: ./xml/part-00000-1e425a0e-fe21-4be0-9db0-efd8b228e625-c000.snappy.parquet
+2024-03-22 00:59:28,083 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,083 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,084 - INFO - Parsing file: ./xml/part-00000-3b17d7a2-d256-4980-8cda-3e58067d37a5-c000.snappy.parquet
+2024-03-22 00:59:28,088 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,089 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,089 - INFO - Parsing file: ./xml/part-00000-3ed28735-4a9e-4e26-98be-084b740f663e-c000.snappy.parquet
+2024-03-22 00:59:28,092 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,093 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,093 - INFO - Parsing file: ./xml/part-00000-43a0fc9e-e502-4eb8-bdb2-647969be8756-c000.snappy.parquet
+2024-03-22 00:59:28,096 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,096 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,096 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,097 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,097 - INFO - Parsing file: ./xml/part-00000-5ba8296f-5445-46e8-bd50-5020e801a3a1-c000.snappy.parquet
+2024-03-22 00:59:28,100 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,101 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,101 - INFO - Parsing file: ./xml/part-00000-61bbbd72-f4da-410f-87b5-51df64461738-c000.snappy.parquet
+2024-03-22 00:59:28,105 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,105 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,105 - INFO - Parsing file: ./xml/part-00000-853f08dc-4c29-4c04-a9f8-56e4947c6edf-c000.snappy.parquet
+2024-03-22 00:59:28,109 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,109 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,109 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,110 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,110 - INFO - Parsing file: ./xml/part-00000-86c3a06d-7e7a-43c8-9a1e-f3c98772aa93-c000.snappy.parquet
+2024-03-22 00:59:28,113 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,114 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,114 - INFO - Parsing file: ./xml/part-00000-962853db-79ff-4706-92a3-054066ca7e4c-c000.snappy.parquet
+2024-03-22 00:59:28,119 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,120 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,120 - INFO - Parsing file: ./xml/part-00000-994442de-6f25-4dfd-8b04-a8b4f5cf576e-c000.snappy.parquet
+2024-03-22 00:59:28,124 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,124 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,124 - INFO - Parsing file: ./xml/part-00000-9d2c45f6-0aa1-482c-a403-9947ab619ceb-c000.snappy.parquet
+2024-03-22 00:59:28,129 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,129 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,129 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,129 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,129 - INFO - Parsing file: ./xml/part-00000-a1fb3bfb-b56a-4776-a9f3-fff1660de534-c000.snappy.parquet
+2024-03-22 00:59:28,133 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,133 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,134 - INFO - Parsing file: ./xml/part-00000-ae739098-98f7-4dc0-bfd7-e682ebced13d-c000.snappy.parquet
+2024-03-22 00:59:28,137 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,137 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,138 - INFO - Parsing file: ./xml/part-00000-b33ba9c6-4015-441a-937a-6eee6d9b7153-c000.snappy.parquet
+2024-03-22 00:59:28,141 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,141 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,141 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,142 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,142 - INFO - Parsing file: ./xml/part-00000-c277b9df-1869-4201-9d85-d2ac4ce9e37f-c000.snappy.parquet
+2024-03-22 00:59:28,145 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,145 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,146 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,146 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,146 - INFO - Parsing file: ./xml/part-00000-c30387f0-adb9-4a5c-962c-9fe07389c2bd-c000.snappy.parquet
+2024-03-22 00:59:28,149 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,150 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,150 - INFO - Parsing file: ./xml/part-00000-c710bc64-9a4e-45a2-921d-e4facd00f0a5-c000.snappy.parquet
+2024-03-22 00:59:28,153 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,154 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,154 - INFO - Parsing file: ./xml/part-00000-d4ab5fb7-9993-4a00-9698-c84152ac3fc2-c000.snappy.parquet
+2024-03-22 00:59:28,159 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,160 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,160 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,160 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,160 - INFO - Parsing file: ./xml/part-00000-d53077cd-52dc-4085-9166-d205340eaaad-c000.snappy.parquet
+2024-03-22 00:59:28,165 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,165 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,165 - INFO - Parsing file: ./xml/part-00000-e2ce041f-a9b6-4dca-99e5-1c506fe6723b-c000.snappy.parquet
+2024-03-22 00:59:28,169 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,169 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,169 - INFO - Parsing file: ./xml/part-00000-ea7ca30f-e1ea-460d-a79b-509a24ffb6c2-c000.snappy.parquet
+2024-03-22 00:59:28,172 - INFO - Starting to parse XML content.
+2024-03-22 00:59:28,172 - INFO - Finished parsing XML content.
+2024-03-22 00:59:28,173 - INFO - Finished parsing Parquet files in directory ./xml/.
+2024-03-22 00:59:28,173 - INFO - Starting to transform data.
+2024-03-22 00:59:28,215 - INFO - Finished transforming data.
+2024-03-22 00:59:29,075 - INFO - Successfully wrote to output files and Postgres.
+2024-03-22 01:00:29,097 - INFO - Found 22 new Parquet files.
+2024-03-22 01:00:29,098 - INFO - Starting to parse Parquet files in directory ./xml/.
+2024-03-22 01:00:29,100 - INFO - Found 22 parquet files.
+2024-03-22 01:00:29,100 - INFO - Parsing file: ./xml/part-00000-18a48638-1c6c-4280-a593-4510c6cbd568-c000.snappy.parquet
+2024-03-22 01:00:29,106 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,106 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,106 - INFO - Parsing file: ./xml/part-00000-2f147bbb-fc8a-4c47-8925-7ff570711da9-c000.snappy.parquet
+2024-03-22 01:00:29,110 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,110 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,110 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,110 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,110 - INFO - Parsing file: ./xml/part-00000-2f73d6ac-6102-4194-be4a-19e9cf52f1ee-c000.snappy.parquet
+2024-03-22 01:00:29,114 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,114 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,114 - INFO - Parsing file: ./xml/part-00000-3b52c29a-288e-4ff2-aa29-6d015e285b10-c000.snappy.parquet
+2024-03-22 01:00:29,118 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,118 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,118 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,119 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,119 - INFO - Parsing file: ./xml/part-00000-4e59ecc2-099d-4f33-9c5c-a9fef50ce852-c000.snappy.parquet
+2024-03-22 01:00:29,123 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,123 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,123 - INFO - Parsing file: ./xml/part-00000-598faadf-2689-4a1f-815c-ba2ac5634de8-c000.snappy.parquet
+2024-03-22 01:00:29,127 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,127 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,127 - INFO - Parsing file: ./xml/part-00000-6a5e6515-5429-4772-acdb-701f1bea8463-c000.snappy.parquet
+2024-03-22 01:00:29,132 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,132 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,132 - INFO - Parsing file: ./xml/part-00000-6f6de2f8-f2d1-463f-8835-5633a97c1b7b-c000.snappy.parquet
+2024-03-22 01:00:29,137 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,138 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,138 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,138 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,138 - INFO - Parsing file: ./xml/part-00000-78469c6b-5bfe-43ba-a658-449637ee6996-c000.snappy.parquet
+2024-03-22 01:00:29,142 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,143 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,143 - INFO - Parsing file: ./xml/part-00000-7962ac4b-5d86-471a-badb-2d1d44526a43-c000.snappy.parquet
+2024-03-22 01:00:29,147 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,147 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,148 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,148 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,148 - INFO - Parsing file: ./xml/part-00000-7e78f40f-7d9b-405d-a934-9ede1530659b-c000.snappy.parquet
+2024-03-22 01:00:29,153 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,153 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,153 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,154 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,154 - INFO - Parsing file: ./xml/part-00000-8d834005-01b7-4193-b5a7-20a8c97c5f3b-c000.snappy.parquet
+2024-03-22 01:00:29,158 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,158 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,158 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,159 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,159 - INFO - Parsing file: ./xml/part-00000-8fcda76f-77fb-4c67-a57a-b3f34b550886-c000.snappy.parquet
+2024-03-22 01:00:29,163 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,163 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,163 - INFO - Parsing file: ./xml/part-00000-95cb9045-76f9-44b9-a2d9-d3956cc4a39c-c000.snappy.parquet
+2024-03-22 01:00:29,167 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,168 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,168 - INFO - Parsing file: ./xml/part-00000-9fc3dade-f2e7-4b90-aa96-f2065db577cb-c000.snappy.parquet
+2024-03-22 01:00:29,172 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,172 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,172 - INFO - Parsing file: ./xml/part-00000-aa9369cc-b2d3-44fb-bec8-64fd9611df05-c000.snappy.parquet
+2024-03-22 01:00:29,176 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,177 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,177 - INFO - Parsing file: ./xml/part-00000-b691d5a7-3099-4566-809a-f4d9ee74a43f-c000.snappy.parquet
+2024-03-22 01:00:29,180 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,181 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,181 - INFO - Parsing file: ./xml/part-00000-b8e212d4-ba46-4223-a1ec-3427f37831d0-c000.snappy.parquet
+2024-03-22 01:00:29,185 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,185 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,185 - INFO - Parsing file: ./xml/part-00000-c6e25225-4222-4322-b884-833c3a90e409-c000.snappy.parquet
+2024-03-22 01:00:29,189 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,189 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,189 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,190 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,190 - INFO - Parsing file: ./xml/part-00000-c9563ba9-0f5f-4317-86ab-f8054394dab8-c000.snappy.parquet
+2024-03-22 01:00:29,194 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,194 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,195 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,195 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,195 - INFO - Parsing file: ./xml/part-00000-ccfc750a-f800-45c5-8179-c2813d293038-c000.snappy.parquet
+2024-03-22 01:00:29,201 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,201 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,201 - INFO - Parsing file: ./xml/part-00000-d52d2150-3611-4f41-b29c-4b243e84d439-c000.snappy.parquet
+2024-03-22 01:00:29,205 - INFO - Starting to parse XML content.
+2024-03-22 01:00:29,206 - INFO - Finished parsing XML content.
+2024-03-22 01:00:29,206 - INFO - Finished parsing Parquet files in directory ./xml/.
+2024-03-22 01:00:29,207 - INFO - Starting to transform data.
+2024-03-22 01:00:29,246 - INFO - Finished transforming data.
+2024-03-22 01:00:30,113 - INFO - Successfully wrote to output files and Postgres.
+2024-03-22 01:01:30,133 - INFO - Found 21 new Parquet files.
+2024-03-22 01:01:30,133 - INFO - Starting to parse Parquet files in directory ./xml/.
+2024-03-22 01:01:30,136 - INFO - Found 21 parquet files.
+2024-03-22 01:01:30,137 - INFO - Parsing file: ./xml/part-00000-078bb176-291b-4613-946d-647e37e0482c-c000.snappy.parquet
+2024-03-22 01:01:30,143 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,144 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,144 - INFO - Parsing file: ./xml/part-00000-08fe0b49-5e77-46a7-8e5e-a0619652cf0f-c000.snappy.parquet
+2024-03-22 01:01:30,149 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,149 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,149 - INFO - Parsing file: ./xml/part-00000-194a72a3-ca6f-4609-a998-a82e64d0afd8-c000.snappy.parquet
+2024-03-22 01:01:30,154 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,154 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,154 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,154 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,154 - INFO - Parsing file: ./xml/part-00000-1d3a1c7f-7894-4d4c-bf2c-174da3b85c08-c000.snappy.parquet
+2024-03-22 01:01:30,158 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,158 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,158 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,158 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,159 - INFO - Parsing file: ./xml/part-00000-1ec85e1b-3470-4529-946a-de2f8e73b51f-c000.snappy.parquet
+2024-03-22 01:01:30,162 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,162 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,162 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,162 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,163 - INFO - Parsing file: ./xml/part-00000-2c8fee90-3ee6-4d17-80ff-d7cff06d4a74-c000.snappy.parquet
+2024-03-22 01:01:30,166 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,167 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,167 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,167 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,167 - INFO - Parsing file: ./xml/part-00000-2f020c35-8f3f-4973-95d9-7eb0b20a7cad-c000.snappy.parquet
+2024-03-22 01:01:30,171 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,171 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,172 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,172 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,172 - INFO - Parsing file: ./xml/part-00000-359a0666-4b02-411f-8f92-8e7b62cab77e-c000.snappy.parquet
+2024-03-22 01:01:30,175 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,175 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,175 - INFO - Parsing file: ./xml/part-00000-52f3c3a7-5da6-4e9f-abd5-e8d9d276c929-c000.snappy.parquet
+2024-03-22 01:01:30,179 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,179 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,179 - INFO - Parsing file: ./xml/part-00000-60640026-2f61-4eb7-be86-ca5dbdb5c1e1-c000.snappy.parquet
+2024-03-22 01:01:30,183 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,183 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,183 - INFO - Parsing file: ./xml/part-00000-6f4a5916-0676-4035-8f08-bbb64b786ed1-c000.snappy.parquet
+2024-03-22 01:01:30,187 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,187 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,187 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,187 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,187 - INFO - Parsing file: ./xml/part-00000-7881a458-9ef3-4c2b-9bb4-e8076383fca5-c000.snappy.parquet
+2024-03-22 01:01:30,191 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,192 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,192 - INFO - Parsing file: ./xml/part-00000-84e98234-83c2-45a0-8d4c-1d0bd9813a63-c000.snappy.parquet
+2024-03-22 01:01:30,195 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,195 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,195 - INFO - Parsing file: ./xml/part-00000-8c2f9b71-4d2d-48cc-ac6e-69bd8e4dead4-c000.snappy.parquet
+2024-03-22 01:01:30,199 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,199 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,199 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,200 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,200 - INFO - Parsing file: ./xml/part-00000-a5e1122e-259f-47fc-b925-80c9ce3a0b08-c000.snappy.parquet
+2024-03-22 01:01:30,204 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,204 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,204 - INFO - Parsing file: ./xml/part-00000-a6fa5521-b870-42b6-90fd-fbb119273086-c000.snappy.parquet
+2024-03-22 01:01:30,208 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,208 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,209 - INFO - Parsing file: ./xml/part-00000-abba1654-23d9-41ee-b385-11f3180bf1da-c000.snappy.parquet
+2024-03-22 01:01:30,212 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,212 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,212 - INFO - Parsing file: ./xml/part-00000-bdd32a4e-2a7c-43b1-8059-98e1974d31d6-c000.snappy.parquet
+2024-03-22 01:01:30,216 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,216 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,217 - INFO - Parsing file: ./xml/part-00000-d4abfda0-b6f8-45b0-a8ea-1aaf9e683774-c000.snappy.parquet
+2024-03-22 01:01:30,221 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,221 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,221 - INFO - Parsing file: ./xml/part-00000-e0f370b1-c97b-4b4d-b20b-9e2b9d6de90b-c000.snappy.parquet
+2024-03-22 01:01:30,225 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,225 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,225 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,225 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,226 - INFO - Parsing file: ./xml/part-00000-e9e3caee-e1a7-46f1-ba97-6e25e5282b2e-c000.snappy.parquet
+2024-03-22 01:01:30,229 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,229 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,229 - INFO - Starting to parse XML content.
+2024-03-22 01:01:30,230 - INFO - Finished parsing XML content.
+2024-03-22 01:01:30,230 - INFO - Finished parsing Parquet files in directory ./xml/.
+2024-03-22 01:01:30,230 - INFO - Starting to transform data.
+2024-03-22 01:01:30,265 - INFO - Finished transforming data.
+2024-03-22 01:01:31,134 - INFO - Successfully wrote to output files and Postgres.
+2024-03-22 01:02:31,153 - INFO - Found 18 new Parquet files.
+2024-03-22 01:02:31,153 - INFO - Starting to parse Parquet files in directory ./xml/.
+2024-03-22 01:02:31,156 - INFO - Found 18 parquet files.
+2024-03-22 01:02:31,156 - INFO - Parsing file: ./xml/part-00000-10c53afd-3a57-4183-a029-0a45145b5df1-c000.snappy.parquet
+2024-03-22 01:02:31,160 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,160 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,161 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,161 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,161 - INFO - Parsing file: ./xml/part-00000-3a590f6d-77fc-4978-b9c9-47f53379085e-c000.snappy.parquet
+2024-03-22 01:02:31,165 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,165 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,165 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,165 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,165 - INFO - Parsing file: ./xml/part-00000-40a60c0b-cc18-4087-a8ac-4b0e42fdf2e8-c000.snappy.parquet
+2024-03-22 01:02:31,169 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,169 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,169 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,170 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,170 - INFO - Parsing file: ./xml/part-00000-41e3894c-70ae-492d-839c-bf2ec2ae35b0-c000.snappy.parquet
+2024-03-22 01:02:31,174 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,174 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,174 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,175 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,175 - INFO - Parsing file: ./xml/part-00000-47e08207-c5a0-408f-be8a-601ebe850269-c000.snappy.parquet
+2024-03-22 01:02:31,178 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,179 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,179 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,179 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,179 - INFO - Parsing file: ./xml/part-00000-5e507308-d291-486f-92e1-ab3b77d1b79a-c000.snappy.parquet
+2024-03-22 01:02:31,183 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,183 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,183 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,183 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,183 - INFO - Parsing file: ./xml/part-00000-6bbd4b6e-7e58-448d-b457-a742925fa5e2-c000.snappy.parquet
+2024-03-22 01:02:31,187 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,187 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,187 - INFO - Parsing file: ./xml/part-00000-6d8a8364-f380-41f5-b96e-a8c901d063d3-c000.snappy.parquet
+2024-03-22 01:02:31,190 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,191 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,191 - INFO - Parsing file: ./xml/part-00000-7576715d-789d-42df-bdf4-b444233b2c72-c000.snappy.parquet
+2024-03-22 01:02:31,194 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,194 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,195 - INFO - Parsing file: ./xml/part-00000-7c9853b6-6545-4be5-8368-bdd9dff12dc3-c000.snappy.parquet
+2024-03-22 01:02:31,198 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,199 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,199 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,199 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,199 - INFO - Parsing file: ./xml/part-00000-96c9dae3-cb5e-4711-a102-1e07fc2d8991-c000.snappy.parquet
+2024-03-22 01:02:31,203 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,203 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,203 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,203 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,203 - INFO - Parsing file: ./xml/part-00000-ba98f5ef-ce19-49ed-8253-17747fc1e5d1-c000.snappy.parquet
+2024-03-22 01:02:31,207 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,207 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,207 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,207 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,207 - INFO - Parsing file: ./xml/part-00000-cfe7945d-d397-4a1f-8235-8caa20ec1140-c000.snappy.parquet
+2024-03-22 01:02:31,211 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,211 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,211 - INFO - Parsing file: ./xml/part-00000-dda6f8fb-b030-42c4-aa95-477dcb60c5dc-c000.snappy.parquet
+2024-03-22 01:02:31,215 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,216 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,216 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,216 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,216 - INFO - Parsing file: ./xml/part-00000-e870319b-fd9d-40b3-8bac-6f4f82e0a16d-c000.snappy.parquet
+2024-03-22 01:02:31,220 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,220 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,220 - INFO - Parsing file: ./xml/part-00000-e9987eb4-1cd4-4f52-aa68-a4b14d159b6a-c000.snappy.parquet
+2024-03-22 01:02:31,223 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,224 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,224 - INFO - Parsing file: ./xml/part-00000-f65b2bc9-f1fb-41c3-bee1-54f20d2a7588-c000.snappy.parquet
+2024-03-22 01:02:31,227 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,227 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,227 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,228 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,228 - INFO - Parsing file: ./xml/part-00000-fd768fbf-abb6-46bf-a188-1693ef98cfd5-c000.snappy.parquet
+2024-03-22 01:02:31,231 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,231 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,231 - INFO - Starting to parse XML content.
+2024-03-22 01:02:31,232 - INFO - Finished parsing XML content.
+2024-03-22 01:02:31,232 - INFO - Finished parsing Parquet files in directory ./xml/.
+2024-03-22 01:02:31,232 - INFO - Starting to transform data.
+2024-03-22 01:02:31,257 - INFO - Finished transforming data.
+2024-03-22 01:02:32,138 - INFO - Successfully wrote to output files and Postgres.
+2024-03-22 01:03:32,156 - INFO - Found 17 new Parquet files.
+2024-03-22 01:03:32,156 - INFO - Starting to parse Parquet files in directory ./xml/.
+2024-03-22 01:03:32,159 - INFO - Found 17 parquet files.
+2024-03-22 01:03:32,159 - INFO - Parsing file: ./xml/part-00000-150bb565-f5e4-4fe4-81f1-13ea55f1f442-c000.snappy.parquet
+2024-03-22 01:03:32,164 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,164 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,164 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,164 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,165 - INFO - Parsing file: ./xml/part-00000-18d7b26a-13d1-45b3-9dab-6464d15d2db6-c000.snappy.parquet
+2024-03-22 01:03:32,168 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,168 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,168 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,169 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,169 - INFO - Parsing file: ./xml/part-00000-1b876fa0-d6dd-4497-a566-cd3c7fd65e60-c000.snappy.parquet
+2024-03-22 01:03:32,172 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,172 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,172 - INFO - Parsing file: ./xml/part-00000-2a7fec0f-2dda-40bc-88db-e797a005d654-c000.snappy.parquet
+2024-03-22 01:03:32,176 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,176 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,177 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,177 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,177 - INFO - Parsing file: ./xml/part-00000-81569197-ffd0-43f4-a085-1f34dca4c24d-c000.snappy.parquet
+2024-03-22 01:03:32,181 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,181 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,181 - INFO - Parsing file: ./xml/part-00000-8713d8c3-87b0-4a41-af1a-6ef8e6253c02-c000.snappy.parquet
+2024-03-22 01:03:32,185 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,185 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,185 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,185 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,185 - INFO - Parsing file: ./xml/part-00000-903ff862-8592-48d9-8452-c97966afb662-c000.snappy.parquet
+2024-03-22 01:03:32,189 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,189 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,189 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,189 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,190 - INFO - Parsing file: ./xml/part-00000-9aec8d9a-d8d0-460d-9a3f-07b673f995e4-c000.snappy.parquet
+2024-03-22 01:03:32,193 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,193 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,193 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,193 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,193 - INFO - Parsing file: ./xml/part-00000-ac61922b-60b4-4650-9007-66ea8d7a7750-c000.snappy.parquet
+2024-03-22 01:03:32,197 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,197 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,197 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,197 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,197 - INFO - Parsing file: ./xml/part-00000-b302299a-5053-485e-98b0-54d4e3867bf5-c000.snappy.parquet
+2024-03-22 01:03:32,203 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,203 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,203 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,203 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,205 - INFO - Parsing file: ./xml/part-00000-b43bd722-44ee-4aaa-a7e1-29374c456bcd-c000.snappy.parquet
+2024-03-22 01:03:32,210 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,211 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,211 - INFO - Parsing file: ./xml/part-00000-c8a16497-077b-4a3f-b380-e705d396a6d2-c000.snappy.parquet
+2024-03-22 01:03:32,216 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,216 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,216 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,217 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,217 - INFO - Parsing file: ./xml/part-00000-cf8b9286-a80d-4ba7-a7f4-934779b6254f-c000.snappy.parquet
+2024-03-22 01:03:32,223 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,223 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,223 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,223 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,224 - INFO - Parsing file: ./xml/part-00000-f25ecce2-c053-4b98-ac9a-5c8705a4191d-c000.snappy.parquet
+2024-03-22 01:03:32,228 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,228 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,228 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,228 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,229 - INFO - Parsing file: ./xml/part-00000-f88f30b0-168b-4c6a-b8d9-80597c5bdfff-c000.snappy.parquet
+2024-03-22 01:03:32,233 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,233 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,233 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,233 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,233 - INFO - Parsing file: ./xml/part-00000-faa1c8d0-04fc-4c9a-9182-25a27bff37fa-c000.snappy.parquet
+2024-03-22 01:03:32,237 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,238 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,238 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,238 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,238 - INFO - Parsing file: ./xml/part-00000-fe05b697-e461-48a6-b716-2fe84c9b9b3e-c000.snappy.parquet
+2024-03-22 01:03:32,242 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,242 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,242 - INFO - Starting to parse XML content.
+2024-03-22 01:03:32,242 - INFO - Finished parsing XML content.
+2024-03-22 01:03:32,243 - INFO - Finished parsing Parquet files in directory ./xml/.
+2024-03-22 01:03:32,243 - INFO - Starting to transform data.
+2024-03-22 01:03:32,266 - INFO - Finished transforming data.
+2024-03-22 01:03:33,101 - INFO - Successfully wrote to output files and Postgres.
+2024-03-22 01:04:33,119 - INFO - Found 15 new Parquet files.
+2024-03-22 01:04:33,119 - INFO - Starting to parse Parquet files in directory ./xml/.
+2024-03-22 01:04:33,122 - INFO - Found 15 parquet files.
+2024-03-22 01:04:33,122 - INFO - Parsing file: ./xml/part-00000-116c9b76-9c42-4cd9-9551-9e8e324dd321-c000.snappy.parquet
+2024-03-22 01:04:33,127 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,127 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,127 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,128 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,128 - INFO - Parsing file: ./xml/part-00000-17dc53dd-5e0a-4fac-b1ae-b6915cbb0ecb-c000.snappy.parquet
+2024-03-22 01:04:33,131 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,131 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,132 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,132 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,132 - INFO - Parsing file: ./xml/part-00000-1ea814af-7d27-4f63-bb9e-270ef6d978e5-c000.snappy.parquet
+2024-03-22 01:04:33,136 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,136 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,136 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,136 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,137 - INFO - Parsing file: ./xml/part-00000-341be038-399c-4cfc-b20a-056d4c3c340c-c000.snappy.parquet
+2024-03-22 01:04:33,141 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,142 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,142 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,142 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,142 - INFO - Parsing file: ./xml/part-00000-5ad1769b-ced9-40aa-b160-d6d0c099d874-c000.snappy.parquet
+2024-03-22 01:04:33,147 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,147 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,148 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,148 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,148 - INFO - Parsing file: ./xml/part-00000-60e4fd3e-c908-4514-9276-4d01215c1ca9-c000.snappy.parquet
+2024-03-22 01:04:33,153 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,153 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,153 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,153 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,153 - INFO - Parsing file: ./xml/part-00000-74ac8749-7201-4f18-85e2-6a1215075db5-c000.snappy.parquet
+2024-03-22 01:04:33,157 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,157 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,157 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,157 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,157 - INFO - Parsing file: ./xml/part-00000-7a186ac8-e2c2-48eb-9e78-ea51bab53631-c000.snappy.parquet
+2024-03-22 01:04:33,161 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,161 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,161 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,161 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,161 - INFO - Parsing file: ./xml/part-00000-aa091d86-5a45-4e33-95c8-68703938c537-c000.snappy.parquet
+2024-03-22 01:04:33,165 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,165 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,165 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,166 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,166 - INFO - Parsing file: ./xml/part-00000-c03d230d-6381-472c-bbd7-abf3b5cfa9b5-c000.snappy.parquet
+2024-03-22 01:04:33,170 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,170 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,170 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,170 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,170 - INFO - Parsing file: ./xml/part-00000-c6ef2522-c791-44be-9b24-eb1c3cd3b846-c000.snappy.parquet
+2024-03-22 01:04:33,174 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,174 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,174 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,174 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,174 - INFO - Parsing file: ./xml/part-00000-d9e9cce5-594e-4f2f-acea-99d661c94bbb-c000.snappy.parquet
+2024-03-22 01:04:33,177 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,178 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,178 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,178 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,178 - INFO - Parsing file: ./xml/part-00000-dc543ec8-a488-4994-bd79-150942b770fe-c000.snappy.parquet
+2024-03-22 01:04:33,182 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,182 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,182 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,182 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,183 - INFO - Parsing file: ./xml/part-00000-f06e7b14-7c2c-43cc-b624-dd46e8fd2b9b-c000.snappy.parquet
+2024-03-22 01:04:33,188 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,188 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,188 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,188 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,189 - INFO - Parsing file: ./xml/part-00000-f718e94a-ee46-4c4c-896c-c6a875550f5a-c000.snappy.parquet
+2024-03-22 01:04:33,192 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,193 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,193 - INFO - Starting to parse XML content.
+2024-03-22 01:04:33,193 - INFO - Finished parsing XML content.
+2024-03-22 01:04:33,193 - INFO - Finished parsing Parquet files in directory ./xml/.
+2024-03-22 01:04:33,194 - INFO - Starting to transform data.
+2024-03-22 01:04:33,220 - INFO - Finished transforming data.
+2024-03-22 01:04:34,066 - INFO - Successfully wrote to output files and Postgres.
