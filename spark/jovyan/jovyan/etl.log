@@ -7590,3 +7590,82 @@ sqlalchemy.exc.ArgumentError: Expected string or URL object, got None
 2024-03-22 01:04:33,194 - INFO - Starting to transform data.
 2024-03-22 01:04:33,220 - INFO - Finished transforming data.
 2024-03-22 01:04:34,066 - INFO - Successfully wrote to output files and Postgres.
+2024-03-22 01:05:34,082 - INFO - Found 14 new Parquet files.
+2024-03-22 01:05:34,082 - INFO - Starting to parse Parquet files in directory ./xml/.
+2024-03-22 01:05:34,085 - INFO - Found 14 parquet files.
+2024-03-22 01:05:34,085 - INFO - Parsing file: ./xml/part-00000-0454469c-49ef-424b-831a-283f62f992e1-c000.snappy.parquet
+2024-03-22 01:05:34,089 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,090 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,090 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,090 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,090 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,090 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,091 - INFO - Parsing file: ./xml/part-00000-05c12b04-17ed-4452-9e20-1f19d7bf668d-c000.snappy.parquet
+2024-03-22 01:05:34,094 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,095 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,095 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,095 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,095 - INFO - Parsing file: ./xml/part-00000-11fbd22b-2f83-4f31-803e-c236655fa845-c000.snappy.parquet
+2024-03-22 01:05:34,100 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,100 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,100 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,100 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,101 - INFO - Parsing file: ./xml/part-00000-1c50686e-bcb2-45d2-ad6f-022675ba4e90-c000.snappy.parquet
+2024-03-22 01:05:34,104 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,105 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,105 - INFO - Parsing file: ./xml/part-00000-25f4203a-0ecd-4e95-88e3-e531e1c7a6d6-c000.snappy.parquet
+2024-03-22 01:05:34,108 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,109 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,109 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,109 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,109 - INFO - Parsing file: ./xml/part-00000-27ea3a8a-c042-40c7-944b-012c553cbf83-c000.snappy.parquet
+2024-03-22 01:05:34,113 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,113 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,113 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,113 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,113 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,114 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,114 - INFO - Parsing file: ./xml/part-00000-3a623477-29b8-4dd6-9c93-e2d00e26b807-c000.snappy.parquet
+2024-03-22 01:05:34,118 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,118 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,118 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,119 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,119 - INFO - Parsing file: ./xml/part-00000-57c7effc-7d47-4917-bce7-dfe1581546f7-c000.snappy.parquet
+2024-03-22 01:05:34,123 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,123 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,123 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,123 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,124 - INFO - Parsing file: ./xml/part-00000-77d0924f-0650-4518-978b-30131d681a9d-c000.snappy.parquet
+2024-03-22 01:05:34,127 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,127 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,127 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,128 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,128 - INFO - Parsing file: ./xml/part-00000-7916df84-2a9f-402e-a81a-66aeffdc8bbe-c000.snappy.parquet
+2024-03-22 01:05:34,133 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,133 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,133 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,133 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,133 - INFO - Parsing file: ./xml/part-00000-79443c07-7a04-4c0a-b221-41ae4ed98335-c000.snappy.parquet
+2024-03-22 01:05:34,137 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,137 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,137 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,137 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,137 - INFO - Parsing file: ./xml/part-00000-9cf101c4-60b9-41c1-b637-26174952f71b-c000.snappy.parquet
+2024-03-22 01:05:34,142 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,142 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,143 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,143 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,143 - INFO - Parsing file: ./xml/part-00000-ceea280e-d75e-4398-bcb4-26da3c7dfe64-c000.snappy.parquet
+2024-03-22 01:05:34,147 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,147 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,147 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,148 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,148 - INFO - Parsing file: ./xml/part-00000-e06e8854-8f6d-4e38-94ba-7310d9d6d9d9-c000.snappy.parquet
+2024-03-22 01:05:34,152 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,152 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,152 - INFO - Starting to parse XML content.
+2024-03-22 01:05:34,152 - INFO - Finished parsing XML content.
+2024-03-22 01:05:34,153 - INFO - Finished parsing Parquet files in directory ./xml/.
+2024-03-22 01:05:34,153 - INFO - Starting to transform data.
+2024-03-22 01:05:34,191 - INFO - Finished transforming data.
+2024-03-22 01:05:35,052 - INFO - Successfully wrote to output files and Postgres.
