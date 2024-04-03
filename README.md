@@ -17,12 +17,15 @@ Our Approach to EDA
 Actions Taken:
 
 -Leveraged Jupyter notebooks to load data from the PostgreSQL database and conduct EDA.
+
 -Executed a comprehensive EDA process, covering data cleaning, exploration, visualization, and interpretation.
+
 -Consolidated our findings into a comprehensive document, catering to both technical and non-technical stakeholders.
+
 -Merged the Station Rail Name Reference Table with the API data to enhance data readability.
+
 -Conducted in-depth analysis to uncover factors contributing to train delays, enabling us to identify optimization opportunities.
+
 -Analyzed station traffic patterns across different time intervals, providing insights for effective resource allocation strategies.
 
 
-
-(README.md)
